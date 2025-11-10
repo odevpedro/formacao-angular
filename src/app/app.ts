@@ -5,8 +5,7 @@ import { Title } from "./title/title";
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, Title],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  template: '1 <router-outlet></router-outlet>'
 })
 export class App {
 }
