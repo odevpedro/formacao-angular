@@ -1,59 +1,22 @@
-# MeuPrimeiroProjeto
+# Formação Angular
+Angular é um framework javascript de código aberto que serve para criar SPA - Single Pages Applications, aplicações de única tela. Uma única pagina atende a necessidade do nosso projeto sem ter a necessidade de recarregar a pagina toda vez que alguma alteração é feita. Uma aplicação angular é baseada em componentes. Com os componenetes podemos encapsular regars da interface tornando a criação de aplicações algo mais simples. Inclusive um componente pode encapsular outros componentes.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.9.
+**Componentes** → Divide a UI em partes independentes e reutilizavéis, trata cada parte da aplicação como um bloco isolado., livre de outras dependências externas. Eles aceitam entradas e retornam elementos que descrevem o que deve aparecer na tela.
 
-## Development server
+Angular facilita a manutenção de layouts complexos e isola as responsabilidades de cada parte do seu código.
 
-To start a local development server, run:
 
-```bash
-ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Estrutura de um projeto angular:
+![alt text](image.png)
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+**Components**:
 
-```bash
-ng generate component component-name
-```
+- component.css = Estilo do componente
+- component.html = Estrutura html do componente
+- component.ts = lógica do nosso componente
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+OBS:
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**app.ts** - Nosso arquivo de entrada, carrega o módulo principal no module vai ser carregado o primeiro componente que é o app módule.
